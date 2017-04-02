@@ -30,17 +30,30 @@
 
 <!-- END HEADER / START BODY CONTENT -->
   <body>
+    <div class="background-image">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" datatarget=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand"><img src="images/elephant.jpg" height="30" width="20"/></a>
+      </div>
 
-
-    <div class="container header">
-      <span id= "logo" class="textLeft leftFloat">herdofelephants</span>
-      <ul class= "list-unstyled list-inline"> 
-        <li ><a href="https://www.github.com/shoklan" target="_blank"><i class="fa fa-github-square fontAwesomeAttrs"  aria-hidden="true"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-rss-square fontAwesomeAttrs" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.twitter.com/shoklan/" target="_blank"><i class="fa fa-twitter-square fontAwesomeAttrs"  aria-hidden="true"></i></a></li>
-      </ul>
-      <span id= "resume" class="textRight">[ resume ]</span>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav ">    
+          <li ><a href="https://www.github.com/shoklan"><i class="fa fa-github-square" style="font-size: 2.1em" aria-hidden="true"></i></a></li>
+          <li><a href=""><i class="fa fa-rss-square" style="font-size: 2.1em;" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.twitter.com/shoklan/"><i class="fa fa-twitter-square" style="font-size: 2.1em;" aria-hidden="true"></i></a></li>
+          <li>
+        </ul>
+      </div>
+      </div>
     </div>
+
+    <div style="height:50px; opacity: 0.0"></div>
 
     This is just text.
 
@@ -55,7 +68,7 @@
 
 
 
-  <pre class= "code">
+  <pre>
   	<code class="language-r line-numbers">
   	mapParallel <- function(.data, .function, clusters = 2 ){
   		require( parallel )
