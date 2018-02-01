@@ -17,63 +17,40 @@ body{
 	background-color: rgba(200, 200, 200, .3);
 }
 
-
 #backgroundImageDiv{
 	width: 100%;
 	height: 100%;
 
-	background-image: url("../images/seigaiha-background.png");
+	background-image: url("../img/seigaiha-background.png");
 	position: fixed;
 	z-index: -1;
 	opacity: .5;
 }
 
-.header{
-	width: 100%;
-	height: 22px;
-	background-color: rgb(20,20,20);
-
-	margin: 0px 0px 1px 0px;
-	padding: 2px 0px;
-	
-	
-	border-color: rgb(250, 250, 250);
-	border-style: solid;
-	border-width: 0px 0px 1px 0px;
-	
-	text-align: center;
+.black{
+	background-color: #000000;
 }
+
 .fontAwesomeAttrs{
 	font-size: 1.3em;
 	color: rgb(225, 225, 225);
+	margin: 0;
+	padding: 0;
 }
 
 .fontAwesomeAttrs:hover {
 	color: rgb(100, 100, 100);
 }
 
-#logo{
+#logo-text{
 	color: white;
-	padding-top: 0px;
-	padding-left: 0px;
-	padding-bottom: 5px;
-
 	font-family: 'Space Mono', monospace;
 }
 
-#resume{
-	color: white;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 1px;
 
-	font-family: 'Space Mono', monospace;
-	/* font-size: .8em; */
-}
-
-
+/*   OTHER STUFF */
 .blogpost{
-	margin: auto 0;
+	margin: 0 auto;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.15em;
 
@@ -84,26 +61,22 @@ body{
 	margin-bottom: 20px;
 
 	display: block;
-
-
-
-
-	
+	padding: 5px 50px 5px 50px;
 }
+
+
 
 .blogpost > h1{
 	font-family: 'Press Start 2P', cursive, monospace;
-	font-size: 2.1em;
-	font-style: italic;
+	font-size: 1.7em;
+	/*font-style: italic;*/
 	text-align: left;
 	clear: left;
 	letter-spacing: -.21em;
-	margin: 20px 20px 10px 0px;
-
-
-
+	margin: 20px 10px 5px -10px;
 }
 
+/*
 .blogpost > h2{
 	font-family: 'Press Start 2P', cursive, monospace;
 	font-size: 1.8em;
@@ -113,73 +86,4 @@ body{
 	margin: 20px 20px 5px 0px;
 
 }
-
-.blogpost > h1:hover,h2:hover{
-
-}
-
-.codelimit{
-	width: 90%;
-}
-
-.date-info{
-	position: relative;
-	float: left;
-	text-transform: uppercase;
-	padding: 2px 2px 0px 2px;
-
-
-}
-
-#toTop{
-	width:60px;
-	height: 18px;
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	background-color: rgb(20,20,20);
-
-	color: white;
-	font-family: 'Space Mono', monospace;
-	text-align: center;
-}
-
-#cc{
-	width:150px;
-	height: 18px;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	background-color: rgb(20,20,20);
-
-	color: white;
-	font-family: 'Space Mono', monospace;
-	text-align: center;
-	font-size: .8em;
-}
-
-
-.leftFloat{
-	float: left;
-}
-
-.rightFloat{
-	float: right;
-}
-
-.textLeft{
-	text-align: left;
-}
-
-
-.textRight{
-	text-align: right;
-}
-
-.textCenter{
-	text-align: center;
-}
-
-.textJustify{
-	text-align: justify;
-}
+*/
